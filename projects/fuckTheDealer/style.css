@@ -1,0 +1,41 @@
+body{
+    font-family: Helvetica;
+}
+
+#home{
+    display: block;
+    text-align: center;
+}
+
+#title{
+    display: block;
+    text-align: center;
+}
+
+#output{
+    display:block;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align everything to the left */
+    gap: 0.5rem; /* Add some spacing */
+}
+
+.card-container {
+    display: flex;
+    align-items: center; /* Align button and counter in a row */
+    gap: 1rem; /* Space between button and counter */
+}
+
+.button {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.counter {
+    font-size: 1.5rem;
+    color: gray;
+}
