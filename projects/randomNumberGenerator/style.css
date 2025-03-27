@@ -1,0 +1,48 @@
+#homeBtn{
+    display: block;
+    text-align: center;
+}
+
+#title{
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#generatedNumber{
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10rem;
+}
+
+#buttonContainer{
+    text-align: center;
+
+}
+.inputField{
+    font-size: 2rem;
+    width: 10rem;
+    text-align: center;
+
+}
+
+#generate{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color:hsla(280, 100%, 30%, 0.4);
+    border-radius: 1rem;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+
+#generate:hover{
+    background-color:hsl(280, 100%, 30%);
+}
+@media(max-width: 100rem){
+    #buttonContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

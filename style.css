@@ -23,6 +23,7 @@ header{
     top: 20rem;
     border-radius: 2rem;
     position: sticky;
+    box-shadow: 5px 5px 18px rgba(147, 147, 147, 0.711);
   
 }
 
@@ -36,12 +37,13 @@ header{
 }
 
 #projects{
-    width: 30rem;
+    font-size: 2rem;
+    width: 40rem;
     padding: 2rem;
     border-radius: 2rem;
 }
 
-@media (max-width: 75rem){
+@media (max-width: 100rem){
     .container{
         display: flex;
         flex-direction: column-reverse;
@@ -64,6 +66,7 @@ header{
     background-color: rgba(242, 242, 247, 0.711);
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 2px 2px 8px rgba(147, 147, 147, 0.711);
 }
 
 #subpages{
@@ -71,5 +74,15 @@ header{
     display: flex;
     gap: 3rem;
     list-style: none;
+}
+
+#page{
+    background-color: rgba(242, 242, 247, 0.711);
+    font-size: 2rem;
+    width: 40rem;
+    min-height:70vh;
+    padding: 2rem;
+    margin-top: 10rem;
+    border-radius: 2rem;
 }
 
