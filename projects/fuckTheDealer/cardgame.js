@@ -46,7 +46,7 @@ function handleFirstGuess(event){
     console.log("You picked:", clickedCard);
 
     if (clickedCard == correctCard) {
-        document.getElementById(correctCard).textContent = cards[clickedCard] + " left";
+        document.getElementById(correctCard).textContent = cards[correctCard] + " left";
         document.getElementById("output").textContent = "Correct!";
         console.log("Correct!");
         
@@ -78,12 +78,12 @@ function handleSecondGuess(event){
     console.log("You picked:", clickedCard);
 
     if (clickedCard === correctCard) {
-        document.getElementById(correctCard).textContent = cards[clickedCard] + " left";
+        document.getElementById(correctCard).textContent = cards[correctCard] + " left";
         document.getElementById("output").textContent = "Correct!";
         console.log("Correct!");
         nextRound();
     } else {
-        document.getElementById(correctCard).textContent = cards[clickedCard] + " left";
+        document.getElementById(correctCard).textContent = cards[correctCard] + " left";
         document.getElementById("output").textContent = "You Lost :(";
         console.log("You Lost");
         nextRound();
